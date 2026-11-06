@@ -1,0 +1,4 @@
+﻿analysis,method,statistic,p_value,sample_count
+입꼬리와 눈 찡그림 상관관계,Spearman,0.4262,2.8e-07,157
+좌우 입꼬리 차이,Wilcoxon,3756.0,1.8202e-05,157
+입꼬리와 입 벌림 상관관계,Spearman,0.3961,2.8e-07,157

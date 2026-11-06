@@ -1,0 +1,34 @@
+
+# 영상 및 원본 데이터
+*.mp4
+*.avi
+original/
+processed/
+face_processed/
+split/
+
+# 이미지
+*.jpg
+*.jpeg
+*.png
+
+# 모델 파일 (라이선스 확인 전 제외)
+model/*.pth
+model/*.task
+model/*.pkl
+
+# 개별 얼굴 특징 및 예측 결과
+results/*features.csv
+results/*blendshapes.csv
+results/*validation*.csv
+results/*manual_labels.csv
+results/video_emotion_predictions.csv
+results/photo_emotion_predictions.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# 시스템
+.DS_Store
+.ipynb_checkpoints/
